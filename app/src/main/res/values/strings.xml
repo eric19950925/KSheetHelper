@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KSheetHelper</string>
+    <string name="profile_title">Profile</string>
+    <string name="sheet_title">Your Sheets</string>
+</resources>

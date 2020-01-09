@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/addsheet_fragment">
+
+    <fragment
+        android:id="@+id/profile_fragment"
+        android:name="com.eric.ksheethelper.ProfileFragment"
+        android:label="Profile">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/addsheet_fragment"
+        android:name="com.eric.ksheethelper.AddSheetFragment"
+        android:label="Add Sheet">
+
+    </fragment>
+
+
+</navigation>
