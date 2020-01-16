@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.eric.ksheethelper">
+    <meta-data
+        android:name="com.google.android.sheets.v4.API_KEY"
+        android:value="136620194879-nfaal3n7asr9vptanktsi3g2k68m66g7.apps.googleusercontent.com" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="false"

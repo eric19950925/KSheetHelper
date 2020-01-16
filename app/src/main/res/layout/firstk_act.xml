@@ -40,6 +40,8 @@
         android:layout_gravity="start"
         app:itemIconTint="@drawable/drawable_color"
         app:itemTextColor="@drawable/drawable_color"
+        app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/drawer_actions"
+        android:background="@drawable/side_nav_bar"
         />
 </androidx.drawerlayout.widget.DrawerLayout>
