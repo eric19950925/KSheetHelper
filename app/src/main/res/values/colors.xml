@@ -4,4 +4,12 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#0097a7</color>
     <color name="colorGrey">#5a5b5c</color>
+    <color name="Success">#4CAF50</color>
+    <color name="white">#ffffff</color>
+    <color name="wrong">#F44336</color>
+    <color name="sh_red">#FD0001</color>
+
+    <color name="yellow">#ebeb34</color>
+    <color name="black">#000000</color>
+    <color name="light_grey_blue">#AFB7BF</color>
 </resources>

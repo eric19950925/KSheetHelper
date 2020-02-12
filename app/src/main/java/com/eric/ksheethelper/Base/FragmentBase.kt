@@ -1,4 +1,4 @@
-package com.eric.ksheethelper
+package com.eric.ksheethelper.Base
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -18,4 +18,17 @@ abstract class FragmentBase:Fragment() {
         val v = inflater.inflate(getLayoutRes(), container, false)
         return v
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        initView()
+    }
+
+    abstract fun initView()
+
+    fun AddPage(nextFragment: Fragment, name: String) {
+        (activity as MomActivity).AddPage(nextFragment, name, 0, 0, 0, 0)
+    }
+    open fun getTAG(): String = this::class.java.simpleName
+
 }

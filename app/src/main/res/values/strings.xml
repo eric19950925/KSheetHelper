@@ -2,4 +2,37 @@
     <string name="app_name">KSheetHelper</string>
     <string name="profile_title">Profile</string>
     <string name="sheet_title">Your Sheets</string>
+    <string name="btn_enter">進入</string>
+    <string name="btn_newSheet">新增試算表</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_signin">Sign in</string>
+    <string name="btn_signup">Sign up</string>
+    <string name="tv_con">分類</string>
+    <string name="tv_region">分區</string>
+    <string name="tv_name">姓名</string>
+    <string name="tv_sex">性別</string>
+    <string name="tv_gf">福音\n/聖徒</string>
+    <string name="enter_user_name">請輸入真實姓名:</string>
+    <string name="reEnter">確定更換試算表嗎?</string>
+    <string name="btn_sure_insert">確認新增</string>
+    <string name="btn_insert">新增牧養</string>
+    <string name="btn_insert_record">新增紀錄</string>
+    <string name="banners">welcome</string>
+    <string name="urlHint">輸入試算表連結</string>
+    <string-array name="Region">
+        <item>24-2</item>
+        <item>74-1</item>
+    </string-array>
+    <string-array name="Sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="GF">
+        <item>福音朋友</item>
+        <item>聖徒</item>
+    </string-array>
+    <string-array name="Con">
+        <item>固定牧養</item>
+        <item>非固定牧養</item>
+    </string-array>
 </resources>

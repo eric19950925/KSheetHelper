@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/sp_region"
+        android:layout_width="200dp"
+        android:layout_height="50sp"
+        android:layout_marginTop="192dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/green_corner_bg"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/et_name"
+        app:layout_constraintEnd_toEndOf="@+id/et_name"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/et_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Spinner
+        android:id="@+id/sp_sex"
+        android:layout_width="200dp"
+        android:layout_height="50sp"
+        android:layout_marginEnd="8dp"
+        android:textSize="17sp"
+        android:background="@drawable/green_corner_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <Spinner
+        android:id="@+id/sp_gf"
+        android:layout_width="200dp"
+        android:layout_height="50sp"
+        android:layout_marginTop="48dp"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@+id/sp_sex"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/sp_sex"
+        app:layout_constraintTop_toBottomOf="@+id/sp_sex"
+        android:background="@drawable/green_corner_bg"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="200dp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/green_corner_bg"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/sp_sex"
+        app:layout_constraintEnd_toEndOf="@+id/sp_sex"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/sp_sex" />
+
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/corner_bg"
+        android:text="Button"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_gf"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/yellow_corner_bg"
+        android:text="TextView"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_region"
+        app:layout_constraintEnd_toStartOf="@+id/sp_region"
+        app:layout_constraintTop_toTopOf="@+id/sp_region" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/yellow_corner_bg"
+        android:text="TextView"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/et_name"
+        app:layout_constraintEnd_toStartOf="@+id/et_name"
+        app:layout_constraintTop_toTopOf="@+id/et_name" />
+
+    <TextView
+        android:id="@+id/tv_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:textSize="17sp"
+        android:background="@drawable/yellow_corner_bg"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_sex"
+        app:layout_constraintEnd_toStartOf="@+id/sp_sex"
+        app:layout_constraintTop_toTopOf="@+id/sp_sex" />
+
+    <TextView
+        android:id="@+id/tv_gf"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/yellow_corner_bg"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_gf"
+        app:layout_constraintEnd_toStartOf="@+id/sp_gf"
+        app:layout_constraintTop_toTopOf="@+id/sp_gf" />
+
+    <TextView
+        android:id="@+id/tv_con"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:textSize="17sp"
+        android:background="@drawable/yellow_corner_bg"
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/sp_con"
+        app:layout_constraintEnd_toStartOf="@+id/sp_con"
+        app:layout_constraintTop_toTopOf="@+id/sp_con" />
+
+    <Spinner
+        android:id="@+id/sp_con"
+        android:layout_width="200dp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="48dp"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/sp_region"
+        app:layout_constraintEnd_toEndOf="@+id/sp_region"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/sp_region"
+        android:background="@drawable/green_corner_bg"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

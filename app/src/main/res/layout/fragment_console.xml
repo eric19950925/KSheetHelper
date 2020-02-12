@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/popup_fragment_bg">
+
+    <LinearLayout  android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button  android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fragment1"
+            android:background="@drawable/corner_bg"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:textSize="17sp"
+            android:id="@+id/first_fragment" />
+        <Button  android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fragment1"
+            android:textSize="17sp"
+            android:background="@drawable/corner_dark_bg"
+            android:textColor="@color/white"
+            android:id="@+id/first_fragment_dark"/>
+        <Button  android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fragment2"
+            android:textSize="17sp"
+            android:background="@drawable/corner_bg"
+            android:textColor="@color/white"
+            android:id="@+id/second_fragment"/>
+        <Button  android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fragment2"
+            android:textSize="17sp"
+            android:background="@drawable/corner_dark_bg"
+            android:textColor="@color/white"
+            android:id="@+id/second_fragment_dark"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_renew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corner_bg"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:text="Button" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="2dp" />
+</LinearLayout>

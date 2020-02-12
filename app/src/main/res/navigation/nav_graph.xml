@@ -8,14 +8,17 @@
     <fragment
         android:id="@+id/profile_fragment"
         android:name="com.eric.ksheethelper.ProfileFragment"
-        android:label="Profile">
+
+        android:label="Profile"
+        >
 
     </fragment>
 
     <fragment
         android:id="@+id/addsheet_fragment_dd"
-        android:name="com.eric.ksheethelper.AddSheetFragment"
-        android:label="Add Sheet">
+        android:name="com.eric.ksheethelper.ConsoleFragment"
+        android:label="Add Sheet"
+        >
 
     </fragment>
 

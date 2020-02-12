@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="textinputlayout" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="android:textSize"> 22dp</item>  <!--设置大小-->
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
 </resources>
